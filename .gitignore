@@ -1,0 +1,49 @@
+# =========================
+# Python cache / build files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# VS Code local settings
+# =========================
+.vscode/
+
+# =========================
+# Participant / collected data
+# DO NOT upload collected CSV files
+# =========================
+**/data/*.csv
+
+# Keep empty data folders if needed
+!**/data/.gitkeep
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
